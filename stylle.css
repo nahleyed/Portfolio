@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(dark-stormy-clouds.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+.log h1{
+    padding: 40px 10px 10px 30px;
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    padding: 0px 10px 10px 900px;
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+
+}
+li  a:hover{
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+.btn{
+    padding-top: 20px;
+}
+.search-box{
+    position: relative;
+    width: 100%;
+    height: 55px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    
+}
+.search-box input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    outline: none;
+    border-radius: 20px;
+    font-size: 22px;
+    color:#fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0 48 0 42px;
+
+}
+.search-box input::placeholder{
+color: black;
+text-transform: capitalize;
+}
+

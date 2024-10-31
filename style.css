@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Aesthetic\ collage\ 🪞🕊️🤍\ Phone\ wallpaper\ 😩🤌🌸\ Amazing\ Photography\ 🩷✨🌷.jfif);
+}
+.box{
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255,255,255,0.5);
+    backdrop-filter: blur(7px);
+    margin-top:150px ;
+    margin-left: 400px;
+
+
+}
+.box h1{
+    color: #fff;
+    text-align: center;
+    font-size: 49px;
+}
+.box input{
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding: 5px 2px 5px 2px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+.box input::placeholder{
+padding-left: 10px;
+
+}
+#check{
+    width:3%;
+    background-color: none;
+}
+#rem{
+    margin-left: 35px;
+    margin-top: -20px;
+    font-size: 18px;
+    font-weight: 100;
+}
+#for{
+    margin-left:250px ;
+    margin-top: -20px;
+}
+#btn{
+    width: 37px;
+    margin-left: 180px;
+    font-size: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    
+}
+#do{
+    margin-left: 100px;
+}
